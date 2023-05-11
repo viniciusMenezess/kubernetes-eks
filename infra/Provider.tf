@@ -14,7 +14,7 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-#Configuração do Kubernetes
+#Configuração do Kubernetes Provider
 data "aws_eks_cluster" "default" {
   name = var.cluster_name
 }
